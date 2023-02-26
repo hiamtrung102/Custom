@@ -1,0 +1,1 @@
+oh-my-posh init pwsh --config "Đường dẫn tới file theme" | Invoke-Expression
