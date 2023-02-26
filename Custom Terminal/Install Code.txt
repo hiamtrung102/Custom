@@ -1,0 +1,4 @@
+powershell chạy admin nha:
+- winget install JanDeDobbeleer.OhMyPosh -s winget
+- code $profile 
+- oh-my-posh init pwsh --config "THEME PATH" | Invoke-Expression
