@@ -1,0 +1,4 @@
+Add-Type -AssemblyName PresentationFramework
+[System.Windows.MessageBox]::Show('Please drag the extension into the extensions folder located at | C:\Users\YourUserName\.spicetify\extensions |')
+spicetify config extensions webnowplaying.js
+spicetify apply

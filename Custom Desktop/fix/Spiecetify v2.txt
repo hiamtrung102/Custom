@@ -1,0 +1,8 @@
+Add-Type -AssemblyName PresentationFramework
+$v="2.2.7"; Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.ps1" | Invoke-Expression
+spicetify
+[System.Windows.MessageBox]::Show('Please drag the extension into the extensions folder located at | C:\Users\YourUserName\.spicetify\extensions |')
+spicetify backup apply enable-devtool
+spicetify config extensions webnowplaying.js
+spicetify config color_scheme dracula
+spicetify apply
